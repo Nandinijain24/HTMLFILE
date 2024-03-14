@@ -1,0 +1,60 @@
+
+.container-fluid{
+          background-color:brown;
+          height: 70px;
+          color:azure ;
+          font-size: 50px;
+          text-shadow: 2px 4px 3px rgba(0,0,0.6); 
+
+}
+
+body,html{
+          margin: 0;
+          padding: 0; 
+}
+
+img{
+          background-image: url('img/kitchen.avif');
+          height: 55%;
+          width: 100%;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          padding-bottom: 4rem;
+          padding-top: 0%;
+}
+input[type='tel']{
+    margin-left: 1000px;
+    padding:7px;
+    
+    border:1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 1000px;
+    text-align: center;
+    justify-content: end;
+    
+    
+}
+
+input[type='submit']{
+    cursor: pointer;
+    padding: 4px;
+    right:0;
+}
+input[type='submit']:hover{
+background-color: #0056b3;
+}
+
+
+
+.block{
+    position: absolute;
+    top:0;
+    right:0;
+    margin-top: 2px;
+}
+.new-span{
+    margin-left: 680px;
+    font-size: 20px;
+}
