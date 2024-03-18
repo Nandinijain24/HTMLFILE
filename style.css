@@ -1,60 +1,46 @@
-
 .container-fluid{
-          background-color:brown;
-          height: 70px;
-          color:azure ;
-          font-size: 50px;
-          text-shadow: 2px 4px 3px rgba(0,0,0.6); 
+  background-color: brown;                            
+color:aliceblue;
 
 }
+.navbar-text{
+color:aliceblue;
 
-body,html{
-          margin: 0;
-          padding: 0; 
+}
+#register{
+  margin-left: 40rem;
+  padding-top:0;
+}
+#loginbtn{
+  border: none;
+  margin: 8px 2px;
+  padding: 2px 9px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+#loginbtn:hover{
+  background-color:burlywood;
+}
+#filterDropdown{
+  margin-right: 4rem;
+}
+.heading{
+  text-align: center;
+  font-size:60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: inherit;
+  font-weight: bold;
 }
 
-img{
-          background-image: url('img/kitchen.avif');
-          height: 55%;
-          width: 100%;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          padding-bottom: 4rem;
-          padding-top: 0%;
+.col-md-4{
+  justify-content: center;
 }
-input[type='tel']{
-    margin-left: 1000px;
-    padding:7px;
-    
-    border:1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box;
-    margin-bottom: 1000px;
-    text-align: center;
-    justify-content: end;
-    
-    
+#col-12{
+  padding-top: 2rem;
+  text-align: center;
 }
-
-input[type='submit']{
-    cursor: pointer;
-    padding: 4px;
-    right:0;
-}
-input[type='submit']:hover{
-background-color: #0056b3;
-}
-
-
-
-.block{
-    position: absolute;
-    top:0;
-    right:0;
-    margin-top: 2px;
-}
-.new-span{
-    margin-left: 680px;
-    font-size: 20px;
+.form-label{
+font-weight: bold;
+padding-top: 3rem;
+padding-left: 1rem;
 }
